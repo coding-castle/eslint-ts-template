@@ -13,7 +13,7 @@ To start using it copy the following files to your repo:
 -   `.eslintignore`
 -   `.eslintrc.js`
 -   `.prettierrc.js`
--   `.tsconfig.json`
+-   `tsconfig.json`
 
 Feel free to adjust those files to your liking but keep the relevant parsers and plugins in the `.eslintrc.js`.
 Right now the code guidelines from Airbnb are used, but feel free to replace `airbnb-typescript/base` with a _Typescript compatible_ config.
