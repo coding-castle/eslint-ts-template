@@ -1,7 +1,12 @@
-const count = 0
-
+let count = 0
+/**
+ * If everything works you should see a warning for the console log
+ * and an error for count++
+ */
 function inc(): number {
-    return 1
+    console.log("incrementing counter")
+    count++
+    return count
 }
 
 inc()
