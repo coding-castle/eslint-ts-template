@@ -6,6 +6,10 @@ VS Code is recommended with the settings found in this repo to enable formatting
 
 Basic lint and formatting scripts are supplied in the `package.json`.
 
+## Easy Setup
+
+Run `npx degit patrickgoeler/eslint-ts-template tmpConfig` in the root of your project. Don't worry the files will delete itself after the setup is complete. After that run `cd tmpConfig` and `bash setup.sh`.
+
 ## Necessary Files
 
 To start using it copy the following files to your repo:
